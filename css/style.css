@@ -1,0 +1,168 @@
+:root{
+    --primary-brand: #4D5AE5;
+    --dark: #2E2F42;
+    --success: #31D0AA;
+    --text: #434455;
+    --subtle-text: #8E8F99;
+    --accent: #E7E9FC;
+    --light: #F4F4FD;
+}
+body { font-family: Roboto, sans-serif;
+    color: var(--dark);
+}
+a {
+    text-decoration: none;
+}
+.logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+}
+.web-logo {
+    color: var(--primary-brand);
+}
+.navigation {
+    list-style: none;;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--dark);
+}
+.navigation:hover {color: var(--text)}
+.navigation:focus {color: var(--text)}
+.navigation:active {color: var(--primary-brand);}
+.contacts {
+    list-style: none;;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--text);
+}
+.contacts:hover {
+    color: var(--primary-brand);
+}
+.contacts:focus {
+    color: var(--primary-brand);
+}
+.contacts:active {
+    text-decoration: underline;
+}
+.main-header {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+.order-button {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: var(--primary-brand);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-color: var(--primary-brand);
+    width: 170px;
+    height: 51px;
+    left: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+.order-button:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    width: 170px;
+    height: 51px;
+    left: 20px;
+    top: 88px;
+}
+.order-button:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    width: 170px;
+    height: 51px;
+    left: 20px;
+    top: 88px;
+}
+   
+.order-button:active {
+    width: 170px;
+    height: 51px;
+    left: 20px;
+    top: 156px;
+    background-color: #404BBF;
+}
+.advantages {
+    list-style: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--text);
+}
+.advantages-head {
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--dark);
+}
+.header2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    color: var(--dark);
+}
+.team {
+    list-style: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--text);
+}
+.tname {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;  
+    color: var(--dark);
+}
+.footer {
+    font-size: 16px;
+    line-height: 24px;
+}
+.project-photo {
+    list-style-type: none;
+    width: 360px;
+    height: 300px;
+}
+.nav-filter {
+    width: 116px;
+    height: 48px;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    background-color: #E7E9FC;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--primary-brand);
+}
+.nav-filter:hover{
+    background-color: #FFFFFF;
+}
+.nav-filter:focus{
+    background-color: #FFFFFF;
+}
+.nav-filter-all {
+    background: var(--primary-brand);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    width: 69px;
+    height: 48px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.nav-filter-all:focus{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.nav-filter-all:hover{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.nav-filter-all:active{
+    background-color: #404BBF;
+}
