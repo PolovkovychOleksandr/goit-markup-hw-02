@@ -6,36 +6,43 @@
     --subtle-text: #8E8F99;
     --accent: #E7E9FC;
     --light: #F4F4FD;
+    --black: #000000;
 }
 body { font-family: Roboto, sans-serif;
     color: var(--dark);
+    background-color: #FFFFFF;
+    letter-spacing: 0,02;
+    font-size: 16px;
 }
 a {
     text-decoration: none;
 }
+ul {list-style-type: none;}
 .logo {
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 1,33;
 }
 .web-logo {
     color: var(--primary-brand);
 }
 .navigation {
     list-style: none;;
-    font-weight: 600;
+    }
+.nav-link {
+    font-weight: 700;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1,33x;
     color: var(--dark);
 }
-.navigation:hover {color: var(--text)}
-.navigation:focus {color: var(--text)}
+.nav-link:hover {color: var(--text)}
+.nav-link:focus {color: var(--text)}
 .navigation:active {color: var(--primary-brand);}
 .contacts {
     list-style: none;;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1,33;
     color: var(--text);
 }
 .contacts:hover {
@@ -47,18 +54,21 @@ a {
 .contacts:active {
     text-decoration: underline;
 }
+.main-section {
+    background-color: var(--dark);
+}
 .main-header {
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 3,33;
     color: #FFFFFF;
 }
 .order-button {
     color: #FFFFFF;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1,05;
     background-color: var(--primary-brand);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -93,36 +103,33 @@ a {
 }
 .advantages {
     list-style: none;
-    font-size: 16px;
-    line-height: 24px;
+    line-height: 1,33;
     color: var(--text);
 }
 .advantages-head {
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1,33;
     color: var(--dark);
 }
-.header2 {
-    font-weight: 600;
+.section-title {
+    font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 2,22;
     color: var(--dark);
 }
 .team {
     list-style: none;
-    font-size: 16px;
-    line-height: 24px;
+    line-height: 1,33;
     color: var(--text);
 }
 .tname {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
-    line-height: 24px;  
+    line-height: 1,33;  
     color: var(--dark);
 }
 .footer {
-    font-size: 16px;
-    line-height: 24px;
+    line-height: 1,33;
 }
 .project-photo {
     list-style-type: none;
@@ -135,9 +142,8 @@ a {
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     background-color: #E7E9FC;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
+    font-weight: 700;
+    line-height: 1,33;
     color: var(--primary-brand);
 }
 .nav-filter:hover{
@@ -153,9 +159,8 @@ a {
     width: 69px;
     height: 48px;
     color: #FFFFFF;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
+    font-weight: 700;
+    line-height: 1,33;
 }
 .nav-filter-all:focus{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -165,4 +170,20 @@ a {
 }
 .nav-filter-all:active{
     background-color: #404BBF;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+  
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.footer-section {
+    background-color: var(--dark);
 }
