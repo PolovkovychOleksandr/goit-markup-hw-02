@@ -11,7 +11,7 @@
 body { font-family: Roboto, sans-serif;
     color: var(--dark);
     background-color: #FFFFFF;
-    letter-spacing: 0,02;
+    letter-spacing: 0.02em;
     font-size: 16px;
 }
 a {
@@ -23,6 +23,8 @@ ul {list-style-type: none;}
     font-weight: 800;
     font-size: 18px;
     line-height: 1,33;
+    text-transform: uppercase;
+    color: var(--dark);
 }
 .web-logo {
     color: var(--primary-brand);
@@ -33,16 +35,16 @@ ul {list-style-type: none;}
 .nav-link {
     font-weight: 700;
     font-size: 16px;
-    line-height: 1,33x;
+    line-height: 1.5;
     color: var(--dark);
 }
-.nav-link:hover {color: var(--text)}
-.nav-link:focus {color: var(--text)}
+.nav-link:hover {color: var(--primary-brand)}
+.nav-link:focus {color: var(--primary-brand)}
 .navigation:active {color: var(--primary-brand);}
 .contacts {
     list-style: none;;
     font-size: 16px;
-    line-height: 1,33;
+    line-height: 1.5;
     color: var(--text);
 }
 .contacts:hover {
@@ -61,22 +63,21 @@ ul {list-style-type: none;}
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
-    line-height: 3,33;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
     color: #FFFFFF;
 }
 .order-button {
     color: #FFFFFF;
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1,05;
+    line-height: 1.18;
     background-color: var(--primary-brand);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border-color: var(--primary-brand);
-    width: 170px;
-    height: 51px;
-    left: 20px;
-    top: 20px;
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
 .order-button:hover {
@@ -103,33 +104,37 @@ ul {list-style-type: none;}
 }
 .advantages {
     list-style: none;
-    line-height: 1,33;
+    line-height: 1.5;
     color: var(--text);
 }
 .advantages-head {
     font-size: 20px;
-    line-height: 1,33;
+    line-height: 1.2;
     color: var(--dark);
 }
 .section-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 2,22;
+    line-height: 1.11;
     color: var(--dark);
+}
+.team-section{
+    background-color: var(--light);
 }
 .team {
     list-style: none;
-    line-height: 1,33;
+    line-height: 1.5;
     color: var(--text);
+    letter-spacing: 0.02em;
 }
 .tname {
     font-weight: 700;
     font-size: 20px;
-    line-height: 1,33;  
+    line-height: 1.2;  
     color: var(--dark);
 }
 .footer {
-    line-height: 1,33;
+    line-height: 1.5;
 }
 .project-photo {
     list-style-type: none;
@@ -143,7 +148,7 @@ ul {list-style-type: none;}
     border-radius: 4px;
     background-color: #E7E9FC;
     font-weight: 700;
-    line-height: 1,33;
+    line-height: 1.5;
     color: var(--primary-brand);
 }
 .nav-filter:hover{
@@ -160,7 +165,7 @@ ul {list-style-type: none;}
     height: 48px;
     color: #FFFFFF;
     font-weight: 700;
-    line-height: 1,33;
+    line-height: 1.5;
 }
 .nav-filter-all:focus{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
